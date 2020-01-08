@@ -9,4 +9,4 @@ TPCCRunner测试中，mysql数据库表都基于warehouse id进行关联；因�
 
 2 将part_table.sh拷贝到TPCCRunner目录。
 
-3 执行sh part_table.sh [part_table.sh](./part_table.sh "part")
+3 执行sh [part_table.sh](./part_table.sh "part")
