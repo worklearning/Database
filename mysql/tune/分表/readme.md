@@ -5,3 +5,6 @@
 ## 分表策略理由
 TPCCRunner测试中，mysql数据库表都基于warehouse id进行关联；因此按照warehouse id进行分表，能保持原表与表的关系。
 ## 使用说明
+1 在TPCCRunner测试目录创建sql/part目录;将sql脚本拷贝到sql/part目录。
+
+2 将part_table.sh拷贝到TPCCRunner目录。
